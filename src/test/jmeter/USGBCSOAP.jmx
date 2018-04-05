@@ -29,7 +29,7 @@
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Simple Controller" enabled="true"/>
         <hashTree>
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-            <stringProp name="filename">usgbc.csv</stringProp>
+            <stringProp name="filename">D:\Jenkins\workspace\USGBCSOAP\Reportfile\usgbc.csv</stringProp>
             <stringProp name="fileEncoding"></stringProp>
             <stringProp name="variableNames">partner,password,user</stringProp>
             <boolProp name="ignoreFirstLine">false</boolProp>
@@ -170,7 +170,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">Reportfile\usgbcSummery.csv</stringProp>
+          <stringProp name="filename">D:\Jenkins\workspace\USGBCSOAP\Reportfile\usgbcSummery.csv</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
